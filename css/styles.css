@@ -417,7 +417,7 @@ video {
     width: 30rem;
   }
 }
-/* =========== Service ============ */
+/* Service */
 .service .row {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -442,7 +442,7 @@ video {
     grid-template-columns: 1fr;
   }
 }
-/* =========== Discount ============ */
+/* Discount */
 .discount {
   position: relative;
   height: 60rem;
