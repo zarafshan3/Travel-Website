@@ -3,7 +3,7 @@
 
 :root {
   /* Color Variables */
-  --primary: #ffc400;
+  --primary: #3700ff;
   --text-1: #0f2341;
   --text-2: #a9a9a9;
   --white: #fff;
@@ -145,6 +145,8 @@ video {
 
 .nav-link:hover {
   color: var(--primary);
+  background: #fff;
+  border-radius: 50px;
 }
 
 .btn {
@@ -857,3 +859,26 @@ video {
   width: 20rem;
   height: 20rem;
 }
+
+
+
+
+body::-webkit-scrollbar {
+  width: 16px;
+  
+}
+body::-webkit-scrollbar-track {
+  background: floralwhite;
+}
+body::-webkit-scrollbar-thumb {
+  background: -webkit-radial-gradient(
+    circle,
+    #b9a8fd 0%,
+    #3700ff 50%,
+    #45fcdd 100%
+  );
+  border-radius: 10px
+}
+
+
+
